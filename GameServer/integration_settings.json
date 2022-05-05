@@ -1,0 +1,27 @@
+{
+  "haskellTargetURL": "http://localhost",
+  "haskellPort"  : 8080,
+  "haskellMethod": "compare",
+  "haskellTimeout": 5000,
+
+  "trustedProxyIps": ["192.168.0.0/16"],
+  "workerThreadNumber": "2",
+
+  "databaseUsername": "root",
+  "databasePassword": "admin",
+  "databaseURL": "jdbc:mysql://localhost/formalz?useSSL=false",
+  "databaseMinPoolSize": 2,
+  "databaseMaxPoolSize": 8,
+  
+  "connectionPort": 2000,
+  
+  "tlsEnabled": false,
+  
+  "maxSessionCreatedDifference": 2147483647,
+  "sessionWaitTime": 5000,
+
+  "analyticsEnabled": false,
+  "analyticsServerHost": "analytics.example.com",
+  "analyticsServerPort": 443,
+  "analyticsServerSecureConnection": true
+}

@@ -1,0 +1,31 @@
+{
+  "haskellTargetURL": "http://172.32.0.1",
+  "haskellPort"  : 8082,
+  "haskellMethod": "compare",
+  "haskellTimeout": 10000,
+
+  "trustedProxyIps": ["192.168.0.0/16"],
+  "workerThreadNumber": "2",
+
+  "databaseUsername": "root",
+  "databasePassword": "admin",
+  "databaseURL": "jdbc:mariadb://172.32.0.1/formalz?useSSL=false",
+  "databaseMinPoolSize": 2,
+  "databaseMaxPoolSize": 8,
+
+  "connectionPort": 8081,
+  
+  "tlsEnabled": false,
+  "serverStoreType": "JKS",
+  "serverKeyStore": "keystore.jks",
+  "serverStorePassword": "storepassword",
+  "serverKeyPassword": "keypassword",
+  
+  "maxSessionCreatedDifference": 2147483647,
+  "sessionWaitTime": 5000,
+
+  "analyticsEnabled": false,
+  "analyticsServerHost": "analytics.example.com",
+  "analyticsServerPort": 443,
+  "analyticsServerSecureConnection": true
+}

@@ -1,0 +1,9 @@
+{
+    "debugToken": "LudisciteDebugToken",
+    "ipAddress": "science-vs160.science.uu.nl",
+    "ipAddressLocal": "127.0.0.1",
+    "server": 0,
+    "port": 8000,
+    "protocol": "wss",
+    "path": ""
+}
